@@ -1,0 +1,9 @@
+{:paths ["src"]
+
+ :deps
+ {metrics-clojure {:mvn/version "2.10.0"}}
+
+ :aliases
+ {:test
+  {:extra-deps {lambdaisland/kaocha {:mvn/version "0.0-554"}
+                org.clojure/clojure {:mvn/version "1.9.0"}}}}}
