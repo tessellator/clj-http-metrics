@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tessellator</groupId>
+  <artifactId>clj-http-metrics</artifactId>
+  <version>0.1.0</version>
+  <name>clj-http-metrics</name>
+  <description>A clj-http middleware that reports timing metrics</description>
+  <licenses>
+    <license>
+      <name>Eclipse Public License 2.0</name>
+      <url>https://www.eclipse.org/legal/epl-v20.html</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/tessellator/clj-http-metrics.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/tessellator/clj-http-metrics.git</developerConnection>
+    <tag>e53a0ad2e74fbe95c492bd351a4f74955e36f2d4</tag>
+    <url>https://github.com/tessellator/clj-http-metrics</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>metrics-clojure</groupId>
+      <artifactId>metrics-clojure</artifactId>
+      <version>2.10.0</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src</directory>
+      </resource>
+    </resources>
+  </build>
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <url>https://repo.clojars.org/</url>
+    </repository>
+  </repositories>
+  <distributionManagement>
+    <repository>
+      <id>clojars</id>
+      <name>Clojars repository</name>
+      <url>https://clojars.org/repo</url>
+    </repository>
+  </distributionManagement>
+</project>
